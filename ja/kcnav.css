@@ -1,4 +1,13 @@
 /* 小さめなfooter */
 #footer span {
-  margin: 2pt;
+  margin: 1px;
+}
+/* 矢印の対応あるフォントを指定しないと */
+.node-details-entries-controls > * {
+  font-family: "Cambria Math", Symbola, Quivira;
+}
+.node-details-entries-controls > label > input {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
 }
